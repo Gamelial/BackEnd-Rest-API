@@ -1,11 +1,13 @@
-Backend-Rest-API
+**Backend-Rest-API**
+
 This guide outlines the steps to deploy a Python/Django REST API on an Ubuntu 24 server using Gunicorn.
 
 VIRTUAL Machine for Database and Backend
 
 React-Django-App
 
-PostgreSQL Deployment on Ubuntu 24
+**PostgreSQL Deployment on Ubuntu 24**
+
 This guide outlines the steps to deploy a PostgreSQL database on an Ubuntu 24 server.
 
 Update System Packages
@@ -36,7 +38,8 @@ sql -- Create the database CREATE DATABASE computex;
 
 -- Exit PostgreSQL shell \q
 
-Deploy a Python/Django REST API on Ubuntu 24 with Gunicorn
+**Deploy a Python/Django REST API on Ubuntu 24 with Gunicorn**
+
 This guide outlines the steps to deploy a Python/Django REST API on an Ubuntu 24 server using Gunicorn.
 
 Update System Packages
@@ -48,8 +51,11 @@ bash sudo apt install python3-pip python3-virtualenv -y
 Create and Activate Virtual Environment
 bash python3 -m virtualenv venv source venv/bin/activate
 
-Clone the Project
-bash git clone https://github.com/Gamelial/React-Django-App.git cd React-Django-App
+**Clone the Project**
+
+bash git clone https://github.com/Gamelial/React-Django-App.git 
+
+cd React-Django-App
 
 Install Dependencies
 bash pip install --upgrade setuptools pip install -r requirements.txt
